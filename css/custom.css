@@ -16,7 +16,7 @@
   --green: #28a745;
   --teal: #20c997;
   --cyan: #17a2b8;
-  --white: #fff;
+  --ivory: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: hotpink;
@@ -27,6 +27,10 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --ivory: #f2efe6;
+  --darker-ivory: #e3decf;
+  --darkest-ivory: #b3ac98;
+  --blackviolet: #05010d;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -45,9 +49,13 @@
   box-sizing: border-box;
 }
 
+.navitem {
+  margin right: 60px;
+}
+
 hr {
-  color: white;
-  background: white;
+  color: ivory;
+  background: ivory;
 }
 
 html {
@@ -72,13 +80,14 @@ section {
 
 body {
   margin: 0;
+  padding: 15px;
   font-family: Arial;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: white;
+  color: #f2efe6;
   text-align: left;
-  background-color: #000;
+  background-color: #05010d;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -330,7 +339,7 @@ legend {
   font-size: 1.5rem;
   line-height: inherit;
   color: inherit;
-  white-space: normal;
+  ivory-space: normal;
 }
 
 progress {
@@ -447,6 +456,7 @@ h6,
   font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
+  margin-bottom: 2rem;
 }
 
 hr {
@@ -1759,7 +1769,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: white;
+  color: ivory;
 }
 .table th,
 .table td {
@@ -1804,7 +1814,7 @@ pre code {
 }
 
 .table-hover tbody tr:hover {
-  color: white;
+  color: ivory;
   background-color: rgba(0, 0, 0, 0.075);
 }
 
@@ -2159,7 +2169,7 @@ select.form-control:focus::-ms-value {
   margin-bottom: 0;
   font-size: 1rem;
   line-height: 1.5;
-  color: white;
+  color: ivory;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0;
@@ -2547,7 +2557,7 @@ textarea.form-control.is-invalid {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: white;
+  color: ivory;
   text-align: center;
   vertical-align: middle;
   user-select: none;
@@ -2566,7 +2576,7 @@ textarea.form-control.is-invalid {
   }
 }
 .btn:hover {
-  color: white;
+  color: ivory;
   text-decoration: none;
 }
 .btn:focus,
@@ -3207,7 +3217,7 @@ input[type="button"].btn-block {
 }
 
 .dropdown-toggle {
-  white-space: nowrap;
+  ivory-space: nowrap;
 }
 .dropdown-toggle::after {
   display: inline-block;
@@ -3234,7 +3244,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: white;
+  color: ivory;
   text-align: left;
   list-style: none;
   background-color: #fff;
@@ -3396,7 +3406,7 @@ input[type="button"].btn-block {
   font-weight: 400;
   color: #212529;
   text-align: inherit;
-  white-space: nowrap;
+  ivory-space: nowrap;
   background-color: transparent;
   border: 0;
 }
@@ -3404,13 +3414,13 @@ input[type="button"].btn-block {
 .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: #e3decf;
 }
 .dropdown-item.active,
 .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: hotpink;
+  background-color: #b3ac98;
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
@@ -3429,7 +3439,7 @@ input[type="button"].btn-block {
   margin-bottom: 0;
   font-size: 0.875rem;
   color: #6c757d;
-  white-space: nowrap;
+  ivory-space: nowrap;
 }
 
 .dropdown-item-text {
@@ -3653,7 +3663,7 @@ input[type="button"].btn-block {
   line-height: 1.5;
   color: #495057;
   text-align: center;
-  white-space: nowrap;
+  ivory-space: nowrap;
   background-color: #e9ecef;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -3762,8 +3772,8 @@ input[type="button"].btn-block {
 }
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
   color: #fff;
-  background-color: white;
-  border-color: white;
+  background-color: ivory;
+  border-color: ivory;
 }
 .custom-control-input[disabled] ~ .custom-control-label,
 .custom-control-input:disabled ~ .custom-control-label {
@@ -4038,7 +4048,7 @@ input[type="button"].btn-block {
   }
 }
 .custom-range::-webkit-slider-thumb:active {
-  background-color: white;
+  background-color: ivory;
 }
 .custom-range::-webkit-slider-runnable-track {
   width: 100%;
@@ -4065,7 +4075,7 @@ input[type="button"].btn-block {
   }
 }
 .custom-range::-moz-range-thumb:active {
-  background-color: white;
+  background-color: ivory;
 }
 .custom-range::-moz-range-track {
   width: 100%;
@@ -4095,7 +4105,7 @@ input[type="button"].btn-block {
   }
 }
 .custom-range::-ms-thumb:active {
-  background-color: white;
+  background-color: ivory;
 }
 .custom-range::-ms-track {
   width: 100%;
@@ -4251,10 +4261,10 @@ input[type="button"].btn-block {
   display: inline-block;
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
-  margin-right: 1rem;
+  margin-right: 3rem;
   font-size: 1.25rem;
   line-height: inherit;
-  white-space: nowrap;
+  ivory-space: nowrap;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4490,7 +4500,7 @@ input[type="button"].btn-block {
 .navbar-expand > .container-md,
 .navbar-expand > .container-lg,
 .navbar-expand > .container-xl {
-  padding-right: 0;
+  padding-right: 40px;
   padding-left: 0;
 }
 .navbar-expand .navbar-nav {
@@ -4937,7 +4947,7 @@ input[type="button"].btn-block {
   font-weight: 700;
   line-height: 1;
   text-align: center;
-  white-space: nowrap;
+  ivory-space: nowrap;
   vertical-align: baseline;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
@@ -5091,7 +5101,7 @@ a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: #05010d;
   border-radius: 0.3rem;
 }
 @media (min-width: 576px) {
@@ -5254,7 +5264,7 @@ a.badge-dark.focus {
   overflow: hidden;
   color: #fff;
   text-align: center;
-  white-space: nowrap;
+  ivory-space: nowrap;
   background-color: hotpink;
   transition: width 0.6s ease;
 }
@@ -5317,7 +5327,7 @@ a.badge-dark.focus {
   background-color: #f8f9fa;
 }
 .list-group-item-action:active {
-  color: white;
+  color: ivory;
   background-color: #e9ecef;
 }
 
@@ -5884,7 +5894,7 @@ a.close.disabled {
   letter-spacing: normal;
   word-break: normal;
   word-spacing: normal;
-  white-space: normal;
+  ivory-space: normal;
   line-break: auto;
   font-size: 0.875rem;
   word-wrap: break-word;
@@ -5998,7 +6008,7 @@ a.close.disabled {
   letter-spacing: normal;
   word-break: normal;
   word-spacing: normal;
-  white-space: normal;
+  ivory-space: normal;
   line-break: auto;
   font-size: 0.875rem;
   word-wrap: break-word;
@@ -6139,7 +6149,7 @@ a.close.disabled {
 
 .popover-body {
   padding: 0.5rem 0.75rem;
-  color: white;
+  color: ivory;
 }
 
 .carousel {
@@ -6459,7 +6469,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #f2efe6 !important;
 }
 
 a.bg-light:hover,
@@ -6480,7 +6490,7 @@ button.bg-dark:focus {
   background-color: #1d2124 !important;
 }
 
-.bg-white {
+.bg-ivory {
   background-color: #fff !important;
 }
 
@@ -6560,7 +6570,7 @@ button.bg-dark:focus {
   border-color: #343a40 !important;
 }
 
-.border-white {
+.border-ivory {
   border-color: #fff !important;
 }
 
@@ -7696,7 +7706,7 @@ button.bg-dark:focus {
   margin: -1px;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
+  ivory-space: nowrap;
   border: 0;
 }
 
@@ -7707,7 +7717,7 @@ button.bg-dark:focus {
   height: auto;
   overflow: visible;
   clip: auto;
-  white-space: normal;
+  ivory-space: normal;
 }
 
 .shadow-sm {
@@ -7732,6 +7742,11 @@ button.bg-dark:focus {
 
 .w-50 {
   width: 50% !important;
+  margin-left: auto;
+  margin-right: auto;
+  border: ivory solid 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .w-75 {
@@ -9976,17 +9991,17 @@ button.bg-dark:focus {
 }
 
 .text-wrap {
-  white-space: normal !important;
+  ivory-space: normal !important;
 }
 
 .text-nowrap {
-  white-space: nowrap !important;
+  ivory-space: nowrap !important;
 }
 
 .text-truncate {
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  ivory-space: nowrap;
 }
 
 .text-left {
@@ -10089,7 +10104,7 @@ button.bg-dark:focus {
   font-style: italic !important;
 }
 
-.text-white {
+.text-ivory {
   color: #fff !important;
 }
 
@@ -10166,7 +10181,7 @@ a.text-dark:focus {
 }
 
 .text-body {
-  color: white !important;
+  color: ivory !important;
 }
 
 .text-muted {
@@ -10177,7 +10192,7 @@ a.text-dark:focus {
   color: rgba(0, 0, 0, 0.5) !important;
 }
 
-.text-white-50 {
+.text-ivory-50 {
   color: rgba(255, 255, 255, 0.5) !important;
 }
 
@@ -10227,7 +10242,7 @@ a.text-dark:focus {
   }
 
   pre {
-    white-space: pre-wrap !important;
+    ivory-space: pre-wrap !important;
   }
 
   pre,
