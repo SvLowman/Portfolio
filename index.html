@@ -12,18 +12,23 @@
     <link rel="stylesheet" href="css/custom.css" />
 
     <!-- FONTS -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- FAVICON -->
-    <link rel="icon" href="favicon-16x16.png" type="png">
+    <link rel="icon" href="favicon-16x16.png" type="png" />
 
     <title>Sven Lohmann Portfolio</title>
   </head>
 
   <body>
-<!--NAVIGATION-->
+    <!--NAVIGATION-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">...</a>
+      <a class="navbar-brand" href="#"
+        ><img src="android-chrome-192x192.png" height="25px"
+      /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -42,12 +47,6 @@
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item" id="rot" class="nav-text">
-            <a class="nav-link" href="#kontakt">Kontakt</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">...</a>
-          </li>
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
@@ -61,71 +60,118 @@
               Fotografie
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#street-photography">Street Photography</a>
+              <a class="dropdown-item" href="#street-photography"
+                >Street Photography</a
+              >
               <a class="dropdown-item" href="#architektur">Architektur</a>
               <a class="dropdown-item" href="#kunst">Kunst</a>
             </div>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Termine</a>
+          </li>
+          <li class="nav-item" class="nav-text">
+            <a class="nav-link" href="#kontakt">Kontakt</a>
+          </li>
         </ul>
       </div>
     </nav>
-<!--COVER-->
-    <div id="a" class="container">
-      <div class="row">
-        <div class="col-sm">
-          <div class="jumbotron jumbotron-fluid">
-            <div class="container">
-              <h1 class="display-4">Sven Lohmann</h1>
-              <p class="lead">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
-                  Alias, similique nobis.!
-              </p>
-            </div>
+    <!--COVER-->
+
+    <div class="row">
+      <div class="col-sm">
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="display-4">Sven Lohmann</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
           </div>
         </div>
-        <div class="col-sm">
-          <img
-            src="images/IMGP1551a.JPG"
-            width="100%"
-            margin-left="auto"
-          />
-        </div>
       </div>
-    </div id="a">
+      <div class="col-sm">
+        <img src="images/IMGP1551a.JPG" width="100%" margin-left="auto" />
+      </div>
+    </div>
 
     <hr />
-<!--URZELLE-->
-  <div>
-    <p class="gerede">
-      <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, sunt. Quas pariatur corrupti quis ducimus illum voluptates dolorem vitae iusto, magnam autem saepe molestias eum architecto quisquam blanditiis veniam reprehenderit.</span>
-      <span>Accusamus numquam corrupti voluptatum quam! Adipisci omnis odit eum, molestias a eaque, molestiae voluptates, repellendus quod labore sint et in nemo impedit fugiat deleniti atque. Aperiam cum numquam possimus nulla!</span>
-      <span>Sequi repellat beatae pariatur mollitia perferendis. Nemo modi explicabo qui doloremque, soluta mollitia veritatis asperiores possimus quasi quos dolorem, tempore et, voluptatum consequatur accusantium atque excepturi laudantium cum deserunt praesentium.</span>
-    </p>
-  </div>
-    <hr>
-<!--KARUSSELL 1-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <!--URZELLE-->
+    <div>
+      <p class="gerede">
+        <span
+          >Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, sunt.
+          Quas pariatur corrupti quis ducimus illum voluptates dolorem vitae
+          iusto, magnam autem saepe molestias eum architecto quisquam blanditiis
+          veniam reprehenderit.</span
+        >
+        <span
+          >Accusamus numquam corrupti voluptatum quam! Adipisci omnis odit eum,
+          molestias a eaque, molestiae voluptates, repellendus quod labore sint
+          et in nemo impedit fugiat deleniti atque. Aperiam cum numquam possimus
+          nulla!</span
+        >
+        <span
+          >Sequi repellat beatae pariatur mollitia perferendis. Nemo modi
+          explicabo qui doloremque, soluta mollitia veritatis asperiores
+          possimus quasi quos dolorem, tempore et, voluptatum consequatur
+          accusantium atque excepturi laudantium cum deserunt praesentium.</span
+        >
+      </p>
+    </div>
+    <hr />
+    <!--KARUSSELL 1-->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-ride="carousel"
+    >
       <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div class="carousel-inner" id="street-photography">
         <div class="carousel-item active">
-          <img src="images/101-regentreppe.JPG" class="d-block bildgrösse" alt="...">
+          <img
+            src="images/101-regentreppe.JPG"
+            class="d-block bildgrösse"
+            alt="..."
+          />
         </div>
         <div class="carousel-item">
-          <img src="images/102-romantische-radfahrerin.JPG" class="d-block bildgrösse" alt="...">
+          <img
+            src="images/102-romantische-radfahrerin.JPG"
+            class="d-block bildgrösse"
+            alt="..."
+          />
         </div>
         <div class="carousel-item">
-          <img src="images/103-regen-in-den-tuilerien.JPG" class="d-block bildgrösse" alt="...">
+          <img
+            src="images/103-regen-in-den-tuilerien.JPG"
+            class="d-block bildgrösse"
+            alt="..."
+          />
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="prev"
+      >
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Weiter</span>
       </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicators"
+        role="button"
+        data-slide="next"
+      >
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Zurück</span>
       </a>
@@ -133,71 +179,131 @@
 
     <hr />
 
-<!--KARUSSELL 2-->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" id="architektur">
-    <div class="carousel-item active">
-      <img src="images/201-casino.JPG" class="d-block bildgrösse" alt="...">
+    <!--KARUSSELL 2-->
+    <div
+      id="carouselExampleIndicatorsb"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" id="architektur">
+        <div class="carousel-item active">
+          <img
+            src="images/201-casino.JPG"
+            class="d-block bildgrösse"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/202-treppenhaus.JPG"
+            class="d-block bildgrösse"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/203-rolltreppe.JPG"
+            class="d-block bildgrösse"
+            alt="..."
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicatorsb"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Weiter</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicatorsb"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Zurück</span>
+      </a>
     </div>
-    <div class="carousel-item">
-      <img src="images/202-treppenhaus.JPG" class="d-block bildgrösse" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/203-rolltreppe.JPG" class="d-block bildgrösse" alt="...">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Weiter</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Zurück</span>
-  </a>
-</div>
 
-<hr />
+    <hr />
 
-<!--KARUSSELL 3-->
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" id="kunst">
-    <div class="carousel-item active">
-      <img src="images/301-der-mensch.JPG" class="d-block bildgrösse" alt="...">
+    <!--KARUSSELL 3-->
+    <div
+      id="carouselExampleIndicatorsc"
+      class="carousel slide"
+      data-ride="carousel"
+    >
+      <ol class="carousel-indicators">
+        <li
+          data-target="#carouselExampleIndicators"
+          data-slide-to="0"
+          class="active"
+        ></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner" id="kunst">
+        <div class="carousel-item active">
+          <img
+            src="images/301-der-mensch.JPG"
+            class="d-block bildgrösse"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/302-mosaik.JPG"
+            class="d-block bildgrösse"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="images/303-pixcell-deer.JPG"
+            class="d-block bildgrösse"
+            alt="..."
+          />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleIndicatorsc"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Weiter</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleIndicatorsc"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Zurück</span>
+      </a>
     </div>
-    <div class="carousel-item">
-      <img src="images/302-mosaik.JPG" class="d-block bildgrösse" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="images/303-pixcell-deer.JPG" class="d-block bildgrösse" alt="...">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Weiter</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Zurück</span>
-  </a>
-</div>
 
-<div class="space"></div>
+    <div class="space"></div>
 
-<hr />
+    <hr />
 
-<!--FOOTER-->
+    <!--FOOTER-->
     <footer id="kontakt" class="hinterweiss">
-      <small>Sven Lohmann | sven@lohmann.de | +49 190 555-234-LOW</small>
+      <small>Sven Lohmann | sven@lohmann.de | +49 190 555-234-LOW | x</small>
     </footer>
 
     <!-- Optional JavaScript -->
