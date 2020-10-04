@@ -1,28 +1,12 @@
 // Your variable overrides
 // See node_modules/bootstrap/scss/_variables.scss for all variables
 $body-bg: #05010d;
-$body-color: #f2efe6;
-$primary: hotpink;
+$body-color: #fff6e6;
+$primary: #b3ac98;
 $font-family-base: Arial;
 
 hr {
-  background: red;
-}
-
-.jumbotron {
-  padding: 2rem 1rem;
-  margin-bottom: 2rem;
-  $background-color: red;
-  border-radius: 0.3rem;
-}
-
-// Include all Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap";
-
-// Add you custom CSS
-
-body {
-  margin: 20px;
+  background: #f2efe6;
 }
 
 .dropdown-item {
@@ -31,7 +15,7 @@ body {
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-  color: #16181b;
+  color: #140626;
   text-decoration: none;
   background-color: #e3decf;
 }
@@ -48,4 +32,105 @@ body {
   color: #140626;
   pointer-events: none;
   background-color: transparent;
+}
+
+.dropdown-item {
+  color: #140626;
+}
+
+// Include all Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Add you custom CSS
+
+body {
+  margin: 40px;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: transparent;
+  border-radius: 0.3rem;
+}
+
+.display-4 {
+  margin-top: 60px;
+  margin-bottom: 100px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.bildgrösse {
+  margin-left: auto;
+  margin-right: auto;
+  border: ivory solid 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  height: 700px;
+}
+
+.col-sm {
+  align: right;
+}
+
+.navbar {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.space {
+  height: 700px;
+}
+
+#kontakt {
+  text-align: center;
+  margin-top: 50px;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  padding-top: 40px;
+}
+
+.gerede {
+  margin: 50px auto 50px auto;
+  width: 35%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+.navbar-nav {
+  margin-left: 50px;
+}
+
+.nav-item {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.lead {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+}
+
+.hinterweiss {
+  background: #f2efe6;
+  color: #05010d;
+}
+
+.carousel {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.nav-text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  color: red;
 }
