@@ -5,6 +5,13 @@ $body-color: #fff6e6;
 $primary: #b3ac98;
 $font-family-base: Arial;
 
+<<<<<<< HEAD
+=======
+hr {
+  background: #f2efe6;
+}
+
+>>>>>>> master
 .dropdown-item {
   color: #05010d;
 }
@@ -51,8 +58,13 @@ body {
 }
 
 .display-4 {
+<<<<<<< HEAD
   margin-top: 150px;
   margin-bottom: 150px;
+=======
+  margin-top: 60px;
+  margin-bottom: 100px;
+>>>>>>> master
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
@@ -68,8 +80,11 @@ body {
 
 .col-sm {
   align: right;
+<<<<<<< HEAD
   margin-top: 20px;
   margin-bottom: 40px;
+=======
+>>>>>>> master
 }
 
 .navbar {
@@ -80,7 +95,11 @@ body {
 }
 
 .space {
+<<<<<<< HEAD
   height: 600px;
+=======
+  height: 700px;
+>>>>>>> master
 }
 
 #kontakt {
@@ -132,6 +151,7 @@ body {
   font-weight: 100;
   color: red;
 }
+<<<<<<< HEAD
 
 hr {
   background: #f2efe6;
@@ -140,3 +160,5 @@ hr {
 .navbar-brand {
   margin-right: 100px;
 }
+=======
+>>>>>>> master
